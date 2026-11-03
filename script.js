@@ -12,8 +12,8 @@ $(document).ready(function() {
     });
 
     $("#iconContainer img").dblclick(function() {
-        let name = $(this).attr("data-url");
-        window.open(URL, "_blank");
+        let url = $(this).attr("data-url");
+        window.open(url, "_blank");
     })
 
     $("#iconContainer img").click(function(event) {
@@ -26,7 +26,7 @@ $(document).ready(function() {
             position: "absolute",
             left: event.pageX + 10,
             top: event.pageY + 10,
-            PointerEvent: "none"
+            pointerEvents: "none"
 
         });
 
