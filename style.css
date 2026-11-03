@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 30px;
+    background-color: burlywood;
 }
 
 #iconContainer {
@@ -16,5 +17,5 @@ body {
 }
 
 p {
-    font: 18px;
+    font-size: 18px;
 }
