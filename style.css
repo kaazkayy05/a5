@@ -7,7 +7,7 @@ body {
     display: inline-block;
 }
 
-#iconContainer {
+#iconContainer img {
     height: 100px;
     width: auto;
     margin: 10px;
