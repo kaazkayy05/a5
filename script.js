@@ -17,8 +17,9 @@ $(document).ready(function() {
     })
 
     $("#iconContainer img").click(function(event) {
+        $(".enlarged").remove();
         let image = $(this).attr("src");
-        let enlargedIcon = $("<img>").attr("src", image);
+        let enlargedIcon = $("<img>").attr("src", image).addClass("enlarged");
 
         enlargedIcon.css({
             height: "200px",
